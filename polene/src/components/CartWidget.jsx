@@ -1,4 +1,6 @@
 import shoppingCart from "../shoppingCart.png"
+
+
 const CartWidget = () => {
     
     return ( 

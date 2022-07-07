@@ -1,4 +1,6 @@
 import CartWidget from "./CartWidget";
+import styles from './NavBar.css';
+
 const NavBar = () => {
     return (
         <nav className="App-nav">
