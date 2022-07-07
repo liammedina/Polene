@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer greeting={"Próximamente Polene Store"}/>
+      <ItemListContainer greeting={"Próximamente Polène Store"}/>
     </>
     
   );
