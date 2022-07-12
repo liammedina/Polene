@@ -6,11 +6,13 @@
     font-family: 'Lexend Tera';
     color: #2b393d;
     padding: 20px;
+    
   }
   .parrafo {
     font-size: 25px ;
     font-family: 'Lexend Tera';
     margin: 0 20px 0 0 ;
+   
   }
   .App-items {
     width: 50vw;
@@ -22,6 +24,7 @@
     align-items: center;
     list-style: none;
     margin: 0 5px 0 5ps;
+   
   
   }
   .link{

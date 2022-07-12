@@ -1,10 +1,11 @@
 import CartWidget from "./CartWidget";
 import styles from './NavBar.css';
+import logosmall from "../Images/logosmall.png"
 
 const NavBar = () => {
     return (
         <nav className="App-nav">
-            <img src="./logosmall.png"></img>
+            <img  src= {logosmall} />
                 <ul className="App-items">
                 <li className="link"><a>COLECCIÓN</a></li>
                 <li className="link"><a>STORE</a></li>

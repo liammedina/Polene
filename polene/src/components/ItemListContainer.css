@@ -1,7 +1,7 @@
 .background{
-    width: 98.75vw;
-    height: 83vh;
-    background: linear-gradient(56deg, rgb(255, 180, 172) 0%, rgb(255, 180, 172) 40%, rgb(103, 145, 134) calc(40% + 1px), rgb(103, 145, 134) 50%, rgb(38, 78, 112) calc(50% + 1px), rgb(38, 78, 112) 70%, rgb(255, 235, 211) calc(70% + 1px), rgb(255, 235, 211) 100%);
+    width: 99.75vw;
+    height: 82.6vh;
+    background: linear-gradient(56deg, rgb(255, 180, 172) 0%, rgb(255, 180, 172) 40%, #679186 calc(40% + 1px), rgb(103, 145, 134) 50%, rgb(38, 78, 112) calc(50% + 1px), #264e70 70%, #ffebd3 calc(70% + 1px), rgb(255, 235, 211) 100%);
 }
 .proxText{
     font-family: 'Montserrat Alternates';
