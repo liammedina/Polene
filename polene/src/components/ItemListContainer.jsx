@@ -1,27 +1,27 @@
 import "./ItemListContainer.css";
 import "./CartWidget";
-import ItemsDatabase from "./Database.jsx";
+import {ItemsDatabase} from "./Database.jsx";
+import {useEffect, useState} from "react";
+import ItemList from "./ItemList";
 
 function ItemListContainer(props) {
     
-    let promiseItems = new Promise ((resolve, reject) => {
-        setTimeout( 
-            () => {
-                resolve({ItemsDatabase});
-            },2000);
-    });
+    const [item, setItem] = useState([]);
 
-    ItemsDatabase.then(
-        (respuesta) => {
-            console.log(respuesta);
-        }
+    useEffect(()=>{const promiseItems = new Promise ((resolve, reject) => {
+        setTimeout( 
+            () => {resolve({ItemsDatabase});
+            },2000);
+        });
+        promiseItems.then((respuesta) => {
+            setItem (ItemsDatabase);
+        })
+    }, []
     )
 
     return (
         <>
-            <div className="background">
-                <p className="proxText">{props.greeting}</p>
-            </div>
+            <ItemList item={item}/>
 
         </>
     );

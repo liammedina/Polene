@@ -1,5 +1,4 @@
-
-const ItemsDatabase = [{
+export const ItemsDatabase = [{
     id: 1,
     title: "NÚMERO UNO",
     price: 3800,
@@ -188,5 +187,4 @@ const ItemsDatabase = [{
     description: "Billetera de solapa larga de tipo continental con interior de cuero. El cinturón extraíble le permite llevar la billetera en la cintura o en la cruz (correa para el hombro).",
     stock: 35,
     img: "https://cdn.shopify.com/s/files/1/0029/7048/4771/t/20/assets/portefeuille-sept-ceinture-camel-grain.pagecollection.slider.png?v=26372589825597460981622796220"
-},
-];
+}];
