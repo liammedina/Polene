@@ -19,8 +19,7 @@ function ItemListContainer(props) {
     }, []
     )
 
-    return (
-        <>
+    return (        <>
             <ItemList item={item}/>
 
         </>
